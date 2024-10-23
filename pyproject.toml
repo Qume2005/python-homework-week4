@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "python-homework-week4"
+version = "0.1.0"
+description = ""
+authors = ["Qume <qume2005@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+exercise1 = "python_homework_week4:Exercise1"
+exercise2 = "python_homework_week4:Exercise2"
+exercise3 = "python_homework_week4:Exercise3"
+exercise4 = "python_homework_week4:Exercise4"
+exercise5 = "python_homework_week4:Exercise5"
+exercise6 = "python_homework_week4:Exercise6"
+exercise7 = "python_homework_week4:Exercise7"
+exercise8 = "python_homework_week4:Exercise8"
